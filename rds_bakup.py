@@ -18,7 +18,7 @@ import re
 import botocore
 from botocore.exceptions import ClientError
 
-DEFAULT_REGION = 'eu-central-1'
+DEFAULT_REGION = 'eu-central-1a'
 DRYRUN = False
 
 def list_rds_instances(client):
